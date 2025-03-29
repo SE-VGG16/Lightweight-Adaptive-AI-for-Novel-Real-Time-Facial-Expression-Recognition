@@ -54,7 +54,7 @@ AMFT integrates several state-of-the-art techniques to achieve high accuracy and
    Prepare CSV files ( `train_annotations.csv` and `test_annotations.csv`) where each row contains the image filename and its corresponding label.
 
 2. **Images:**  
-   Organize your images in directories (e.g., `data/train_images` and `data/test_images`).
+   Organize your images in directories ( `data/train_images` and `data/test_images`).
 
 3. **Adjust Paths:**  
    Update file paths in the scripts (`preprocessing.py`, `train.py`, `test.py`, and `evaluation.py`) if necessary to match your dataset structure.
