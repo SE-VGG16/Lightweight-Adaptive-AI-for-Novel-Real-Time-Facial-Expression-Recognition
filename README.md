@@ -67,21 +67,6 @@ AMFT integrates several state-of-the-art techniques to achieve high accuracy and
 The training script will load the training dataset, train the model for a specified number of epochs, and save checkpoints in the checkpoints folder.
 Testing the Model
 To evaluate the trained model on your test dataset, run:
-
-bash
-Copy
-python test.py
-Ensure that the checkpoint path in test.py is set correctly to load your saved model.
-
-Detailed Evaluation
-For a comprehensive evaluation that includes metrics such as accuracy, confusion matrix, and classification report, run:
-
-bash
-Copy
-python evaluation.py
-This script uses scikit-learn for computing metrics and matplotlib/seaborn for visualizing the confusion matrix and other results.
-
-
 To train the AMFT model, run:
 
 ```bash
