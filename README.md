@@ -69,8 +69,6 @@ To train the AMFT model, run:
 
 ```bash
 python train.py
-Install the required packages using pip:
 
-```bash
-pip install torch torchvision pandas scikit-learn matplotlib seaborn pillow
+
 
