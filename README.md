@@ -48,8 +48,29 @@ AMFT integrates several state-of-the-art techniques to achieve high accuracy and
 - [matplotlib](https://matplotlib.org/)
 - [seaborn](https://seaborn.pydata.org/)
 - [Pillow](https://python-pillow.org/)
+## Data Preparation
 
+1. **Annotations:**  
+   Prepare CSV files (e.g., `train_annotations.csv` and `test_annotations.csv`) where each row contains the image filename and its corresponding label.
+
+2. **Images:**  
+   Organize your images in directories (e.g., `data/train_images` and `data/test_images`).
+
+3. **Adjust Paths:**  
+   Update file paths in the scripts (`preprocessing.py`, `train.py`, `test.py`, and `evaluation.py`) if necessary to match your dataset structure.
+
+---
+
+## Usage
+
+### Training the Model
+
+To train the AMFT model, run:
+
+```bash
+python train.py
 Install the required packages using pip:
 
 ```bash
 pip install torch torchvision pandas scikit-learn matplotlib seaborn pillow
+
