@@ -51,7 +51,7 @@ AMFT integrates several state-of-the-art techniques to achieve high accuracy and
 ## Data Preparation
 
 1. **Annotations:**  
-   Prepare CSV files (e.g., `train_annotations.csv` and `test_annotations.csv`) where each row contains the image filename and its corresponding label.
+   Prepare CSV files ( `train_annotations.csv` and `test_annotations.csv`) where each row contains the image filename and its corresponding label.
 
 2. **Images:**  
    Organize your images in directories (e.g., `data/train_images` and `data/test_images`).
