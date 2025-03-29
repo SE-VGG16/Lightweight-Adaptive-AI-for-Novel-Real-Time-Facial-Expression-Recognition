@@ -64,6 +64,7 @@ AMFT integrates several state-of-the-art techniques to achieve high accuracy and
 ## Usage
 
 ### Training the Model
+The training script will load the training dataset, train the model for a specified number of epochs, and save checkpoints in the checkpoints folder.
 
 To train the AMFT model, run:
 
